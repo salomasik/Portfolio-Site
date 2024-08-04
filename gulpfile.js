@@ -7,6 +7,7 @@ const cssNano = require('cssnano');
 const babel = require('gulp-babel');
 const terser = require('gulp-terser');
 const browserSync = require('browser-sync').create();
+// const glightbox = require('glightbox');
 
 
 // Sass Task

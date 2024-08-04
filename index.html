@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alex Borisenko</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google fonts -->
+
     <link rel="stylesheet" href="./dist/style.css">
     <script src="https://kit.fontawesome.com/6bf5c0016c.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- GLIgTHBOX -->
+     <link rel="stylesheet" href="../node_modules/glightbox/dist/css/glightbox.min.css">
+    
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary-primary menu">
+    <nav class="navbar navbar-expand-lg bg-body-primary navbar-dark menu shadow fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/logo.png?raw=true" alt="logo image">
@@ -49,6 +60,415 @@
           </div>
         </div>
       </nav>
+
+    <!-- Start The 2 Intro -->
+     <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-item-center text-white">
+          
+          
+          <div class="col-md-6 intros">
+            <h1 class="display-2">
+              <span class="display-2--intro">
+                Hey! I`m Alex
+              </span>
+              <span class="display-2--description lh-base">
+                I am a passionate web developer who specializes in creating dynamic, user-friendly websites. With a keen eye for design and a knack for coding, I turn complex ideas into flawless digital experiences. Combining technical expertise with creative talent to create innovative web solutions.
+              </span>
+            </h1>
+
+            <button type="button" class="rounded-pill btn-rounded">
+              Get in Touch
+              <span>
+                 <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </span>
+             </button>
+          </div>
+          <div class="col-md-6 intros text-end">
+            <div class="video-box">
+              <img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/arts/intro-section-illustration.png?raw=true" class="img-fluid" alt="Coding">
+              <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle ">
+                <span class="">
+                  <i class="fas fa-play-circle "></i>
+                </span>
+                <span class="border-animation border-animation--border-1"></span>
+                <span class="border-animation border-animation--border-2"></span>
+
+              </a>
+            </div>
+            
+           
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,85.3C384,96,480,160,576,165.3C672,171,768,117,864,117.3C960,117,1056,171,1152,170.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+     </section>
+
+     <!-- Start The 3 Companies -->
+      <section id="companies" class="companies">
+        <div class="container">
+          <div class="row">
+            <h4 class="fw-bold lead mb-3 text-center">
+              Trusted by companies like
+
+            </h4>
+            <div class="heading-line mb-5 "></div>
+          </div>
+        </div>
+        <!-- Start companies content -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-lg-3">
+              <div class="companies__logo-box shadow-sm"><img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/campanies/campany-1.png?raw=true" alt="Company $ logo"></div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+              <div class="companies__logo-box shadow-sm"><img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/campanies/campany-2.png?raw=true" alt="Company $ logo"></div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+              <div class="companies__logo-box shadow-sm"><img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/campanies/campany-3.png?raw=true" alt="Company $ logo"></div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+              <div class="companies__logo-box shadow-sm"><img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/campanies/campany-4.png?raw=true" alt="Company $ logo"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- start section 4 services -->
+
+<section id="services" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="diplay-3 fw-bold">
+        Our services
+      </h1>
+      <div class="heading-line mb-1"></div>
+
+      <button type="button" class="rounded-pill btn-rounded">
+        Learn more
+        <span>
+           <i class="fas fa-arrow-right" aria-hidden="true"></i>
+        </span>
+       </button>
+
+
+    </div>
+<!-- start description content -->
+    <div class="row pt-2 pb-2 mt-0 mb-3 ">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <div class="h2 fw-bold text-capitallize text-center">
+            Our services range from initial design to deployment anywhere anytime
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light">
+            Custom Web Design: Crafting visually stunning and user-friendly websites tailored to your brand's unique identity.
+
+Responsive Development: Ensuring your site looks and performs flawlessly across all devices and screen sizes.
+
+Ongoing Support: Providing reliable maintenance and updates to keep your website running smoothly and securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Start content for the services -->
+   <div class="container">
+    <!-- Start Marketing content -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-paper-plane"></div>
+          <h3 class="display-3--title mt-1">Marketing</h3>
+          <p class="lh lg">
+            SEO Optimization: Enhancing your site's visibility on search engines to drive more organic traffic and improve rankings.
+
+            Social Media Management: Crafting engaging content and strategies to boost your brand’s presence across social platforms.
+
+            Content Marketing: Developing compelling content that attracts, informs, and converts your target audience effectively.
+          </p>
+
+          <button type="button" class="rounded-pill btn-rounded border-primary">
+            Learn more
+            <span>
+               <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </span>
+           </button>
+
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img class="img-fluid" src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/services/service-1.png?raw=true" alt="Marketing">
+        </div>
+      </div>
+    </div>
+    <!-- Start Web dev content -->
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__pic">
+         <img class="img-fluid" src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/services/service-2.png?raw=true" alt="Web development">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 ">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">Web development</h3>
+          <p class="lh lg">
+            Front-End Development: Building responsive and visually appealing interfaces that provide an exceptional user experience.
+
+            Back-End Development: Creating robust and scalable server-side solutions to power your website’s functionality.
+
+            Full-Stack Solutions: Offering end-to-end development services that integrate both front-end and back-end technologies for a complete digital solution.
+          </p>
+
+          <button type="button" class="rounded-pill btn-rounded border-primary">
+            Learn more
+            <span>
+               <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </span>
+           </button>
+        </div>
+      </div>
+    </div>
+    <!-- Start Cloud hosting content -->
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-cloud-upload-alt"></div>
+          <h3 class="display-3--title mt-1">Cloud Hosting</h3>
+          <p class="lh lg">
+            Scalable Solutions: Providing flexible cloud hosting that grows with your business, ensuring optimal performance as you expand.class="img-fluid" 
+
+            Reliable Uptime: Guaranteeing high availability and minimal downtime to keep your website accessible and functional at all times.
+
+            Secure Infrastructure: Implementing advanced security measures to protect your data and ensure a safe hosting environment.
+          </p>
+
+          <button type="button" class="rounded-pill btn-rounded border-primary">
+            Learn more
+            <span>
+               <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </span>
+           </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img class="img-fluid" src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/services/service-3.png?raw=true" alt="Cloud Hosting">
+        </div>
+      </div>
+    </div>
+   </div>
+</section>
+
+
+<!-- Start section 5 Testimonials -->
+
+<section class="testimonials" id="testimonials">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,218.7C384,235,480,277,576,256C672,235,768,149,864,149.3C960,149,1056,235,1152,277.3C1248,320,1344,320,1392,320L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  <div class="container">
+    <div class="row text-center text-white">
+      <h1 class="display-3 fw-bold">
+        Testimonials
+      </h1>
+      <hr style="width: 100px; height: 3px;" class="mx-auto">
+      <p class="lead pt-1">What our clients are saying</p>
+
+    </div>
+
+<!-- Start the carousel content -->
+<div class="row align-items-center">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Carousel item 1 -->
+      <div class="carousel-item active text-center">
+        <!-- Testimonial Card -->
+        <div class="testimonials__card">
+          <p class="lh-lg">
+            <i class="fas fa-quote-left"></i>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, quam? Dolores quis fugit nostrum sunt sit beatae. Ipsa excepturi maiores ipsam consequatur a ea officia, asperiores beatae mollitia cumque amet?
+            <i class="fas fa-quote-right"></i>
+            <div class="ratings p-1">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+
+            </div>
+          </p>
+        </div>
+
+        <!-- Client picture -->
+         <div class="testimonials__picture">
+          <img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/testimonials/client-1.jpg?raw=true" alt="client 1 picture" class="image-fluid rounded-circle">
+         </div>
+         <!-- Client name & role --> 
+          <div class="testimonials__name">
+            <h3>Jordan Matthews</h3>
+            <p class="fw-light">CEO & founder</p>
+          </div>
+      </div>
+      <!-- Carousel item 2 -->
+
+      <div class="carousel-item text-center">
+        <!-- Testimonial Card -->
+        <div class="testimonials__card">
+          <p class="lh-lg">
+            <i class="fas fa-quote-left"></i>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, quam? Dolores quis fugit nostrum sunt sit beatae. Ipsa excepturi maiores ipsam consequatur a ea officia, asperiores beatae mollitia cumque amet?
+            <i class="fas fa-quote-right"></i>
+            <div class="ratings p-1">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+
+            </div>
+          </p>
+        </div>
+
+        <!-- Client picture -->
+         <div class="testimonials__picture">
+          <img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/testimonials/client-3.jpg?raw=true" alt="client 1 picture" class="image-fluid rounded-circle">
+         </div>
+         <!-- Client name & role -->
+          <div class="testimonials__name">
+            <h3>Taylor Morgan</h3>
+            <p class="fw-light">Global brand manager</p>
+          </div>
+      </div>
+      <!-- Carousel item 3 -->
+
+      <div class="carousel-item text-center">
+        <!-- Testimonial Card -->
+        <div class="testimonials__card">
+          <p class="lh-lg">
+            <i class="fas fa-quote-left"></i>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, quam? Dolores quis fugit nostrum sunt sit beatae. Ipsa excepturi maiores ipsam consequatur a ea officia, asperiores beatae mollitia cumque amet?
+            <i class="fas fa-quote-right"></i>
+            <div class="ratings p-1">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+
+            </div>
+          </p>
+        </div>
+
+        <!-- Client picture -->
+         <div class="testimonials__picture">
+          <img src="https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template/blob/main/images/testimonials/client-4.jpg?raw=true" alt="client 1 picture" class="image-fluid rounded-circle">
+         </div>
+         <!-- Client name & role -->
+          <div class="testimonials__name">
+            <h3>Alex Rivera</h3>
+            <p class="fw-light">Finance Manager</p>
+          </div>
+      </div>
+    </div>
+  <div class="text-center">
+    <button class="btn btn-outline-light fas fa-long-arrow-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    </button>
+    <button class="btn btn-outline-light fas fa-long-arrow-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+  </div>
+
+    </button>
+  </div>
+</div>
+
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,90.7C96,85,192,75,288,80C384,85,480,107,576,144C672,181,768,235,864,218.7C960,203,1056,117,1152,74.7C1248,32,1344,32,1392,32L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+<!-- start section 6 FAQ -->
+
+
+
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+      <div class="heading-line"></div>
+      <p class="lead">frequently asked questions, get knowledge before</p>
+      <!-- Accordion content -->
+       <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionExample">
+            <!-- Accordion 1 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <!-- Accordion 2 -->
+
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <!-- Accordion 3 -->
+
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="../node_modules/glightbox/dist/js/glightbox.min.js"></script>
+<script src="/app/js/gLightBox.js"></script>
 
 </body>
 </html>
