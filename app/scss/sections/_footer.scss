@@ -1,0 +1,160 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.footer{
+    padding-top: 1rem;
+    background-color: $footer;
+}
+
+
+
+// Style thecontact
+
+.contact-box{
+    position: relative;
+
+
+
+    &__icon{
+        width: 2rem;
+        stroke: $primary;
+
+
+        @include media-breakpoint-up(sm){
+        width: 4rem;
+
+        }
+    }
+
+
+    &__info{
+        padding: 0.4rem;
+        font-weight: 600;
+        padding-top: 0.5rem;
+
+
+        &--title{
+            color: $white;
+            font-size: 1rem;
+            text-decoration: none;
+            @include media-breakpoint-up(sm){
+                font-size: 1.4rem;
+
+        
+                }
+
+        }
+        
+
+        &--subtitle{
+            color: $gray-600;
+            font-size: 0.8rem;
+            text-decoration: none;
+            @include media-breakpoint-up(sm){
+                font-size: 1rem;
+
+        
+                }
+
+
+        }
+    }
+}
+
+
+// Style the sm content
+
+.footer-sm{
+    a{
+        color: $white;
+        text-decoration: none;
+
+        i{
+            font-size: 1rem;
+            margin-left: 1rem;
+
+
+            @include media-breakpoint-up(sm){
+                font-size: 1.6rem;
+
+        
+                }
+        }
+    }
+}
+
+
+// start company info
+.campany-list{
+    display: block;
+    list-style-type: none;
+    position: relative;
+
+    li{
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+
+
+        a{
+            color: $white;
+            text-decoration: none;
+
+
+
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+}
+
+
+
+// style rhe copyrights
+.footer-bottom{
+    background-color: $black;
+
+
+
+
+    &__copyright{
+        color: $gray-600;
+        font-weight: 400;
+
+        a{
+            color: $gray-200;
+            text-decoration: none;
+
+            &:hover{
+                color: $primary;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+// Style Back to top button
+
+.back-to-top{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1.875rem;
+    bottom: 1.875rem;
+    z-index: 9999;
+    background-color: $primary;
+
+    i{
+        color: $white;
+        font-size: 2rem;
+        @include absoluteCenter;
+
+    }
+
+    &:hover{
+    background-color: $secondary;
+
+    }
+}

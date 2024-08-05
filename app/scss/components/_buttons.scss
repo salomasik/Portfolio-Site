@@ -43,7 +43,7 @@
     }
 
 
-    &:hover,:focus{
+    &:hover{
         @include gradient;
         color: $white;
         a{
